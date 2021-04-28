@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(255, 192, 203);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 192, 203, 1) 0%,
+    rgba(135, 206, 250, 1) 100%
+  );
+  color: #fff;
+}
+
+#app {
+  background-color: rgba(0, 0, 0, 0.041);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.female {
+  border: 5px solid #ffc0cb;
+  background: #ffc0cb;
+}
+
+.male {
+  border: 5px solid #87cefa;
+  background: #87cefa;
+}
+
+img {
+  border-radius: 50%;
+}
+
+img:active,
+img:hover {
+  opacity: 0.7;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: translateY(2px);
+}
